@@ -118,3 +118,5 @@ window.addEventListener('resize', () => {
   renderer.setSize(width, height);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 });
+
+console.log('updateSomething');
